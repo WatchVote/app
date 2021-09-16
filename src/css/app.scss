@@ -1,0 +1,36 @@
+// app global css in SCSS form
+.page-title {
+  //color: $primary;
+  color: #757575;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  // border-bottom: 1px solid #ccc;
+  margin: 0.2rem 0 0.5rem;
+}
+
+.page-title-simple {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  font-weight: 500;
+}
+
+.checklist > .q-expansion-item__container > .q-item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.protocol > .q-item {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.protocol > .q-item__label {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.q-item__label.q-item__label--header {
+  padding-left: 0;
+}
